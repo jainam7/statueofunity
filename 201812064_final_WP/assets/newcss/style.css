@@ -1,0 +1,1488 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.footer-menu a, .footer-right p, .acc-content>.acc-right>.content-ev-img, .location-clear-text, .acc-right>p, .block-title>p, .blog_stay p, .box_content_inner p, .bullet li p, .bullet-square p, .comapny-details>p, .copy-right>p, .core-team-list span, .desc_top p, .digital-right>p, .dis-para li, .dis-para>p, .fact-list .content ul li, .fact-list li, .fancy-title, .feature-leader-right-details span, .feature-text p, .full-page .svp-block-1 .block-right .content p, .fund-overview, .gallery_txt, .last-para>p, .last-update>p, .leader-left>h3, .leader-left>p, .leader-right>h3, .link-sec a, .location-clear-text.stat-des>p, .new-sec>p, .news-content p, .news-right-content p, .org-para>p, .project-major-left .content p, .project_demo p, .sbb-para>p, .scroll-none p, .setup h4, .setup>p, .social-icons li a .fa, .sou-contact-form label, .sou-loc-para .content p, .sou-loc-para>p, .sptime-content ul li, .sptime-content ul li span, .table>tbody>tr>td, .tech-para>p, .feature-leader-sect p, .fact-para>p, .block-right>p, .block-svp-details>p, .content_css_custom p, .detail-complex-sou, .detail-post-sou, .contact-msg-icon, #sptimeline .fact-acc p, body {
+    font-size: 15px;
+}
+.bullet li {
+	font-size: 15px;
+}
+
+.footer-left, .footer-right {
+    padding: 10px 0;
+}
+
+
+.major-fact-sec.sardar_patel_major_facts {
+	margin-top:15px;
+}
+.major-fact-sec.sardar_patel_major_facts .container {
+	background:#eee;
+}
+
+.major-fact-sec {
+    background: url(../images/objective-last-bg.jpg) center center/cover rgba(0, 0, 0, 0);
+    /* padding-bottom: 60px; */
+    width: 100%
+}
+.major-fact-left {
+    background: #eee;
+    float: left;
+    /* height: 552px; */
+    margin-top: 0px;
+    width: 70%
+}
+.major-fact-right {
+    float: right;
+    position: relative;
+    width: 30%;
+}
+.major-fact-right::before {
+    background: #f0562c;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 4px;
+    z-index: 999
+}
+.fact-list {
+    float: left;
+    padding: 0px 0 0 30px;
+    width: 100%
+}
+.fact-list>h3 {
+    color: #f0582d;
+    font-family:Book Antiqua;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-left: -20px;
+    text-decoration: underline
+}
+.copy-right>p,
+.fact-list li {
+    font-size: 18px;
+    font-family: "Titillium Web", sans-serif
+}
+.fact-list li {
+    color: #f0562c;
+    list-style: square;
+    margin-bottom: 21px;
+	/* list-style-position: inside; */
+}
+.fact-list span {
+    color: #7d7d7d
+}
+
+
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    border-radius: 24px;                                                                                         
+  }
+
+
+
+  
+
+
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-image: "../assets/newimg/about-bg.jpeg";
+    overflow: hidden;
+    
+  }
+
+
+
+
+.block-right {
+    float: right;
+    width: 69%
+}
+@media screen and (max-width: 1024px)
+{
+.block-right > h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+}
+
+.block-right>h3 {
+    color: #000;
+    font-size: 40px;
+    margin-left:-43%;
+    text-align: left       
+}
+.block-right span {
+    color: #f0562c
+}
+.block-right>p {
+    color: #7d7d7d;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px
+}
+.block-right>a {
+    color: #f0582d;
+    font-size: 24px;
+    font-family: oswald_regularregular
+}
+.block-left {
+    float: left;
+    width: 29%
+}
+
+.svp-block-1 .block-left {
+    width: 323px
+}
+.block-left>img {
+    width: 100%
+}
+
+
+
+
+.bg-title h3 {
+    font-family: "Titillium Web", sans-serif;
+    color: #fff
+}
+.block-1{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: flex-end;
+    overflow: hidden;
+    text-align: left;   
+    float: right;
+  
+}
+.svp-block-1,
+.svp-block-2,
+.svp-block-3,
+.svp-detail-slides {
+    display: inline-block
+}
+.svp-detail-slides {
+    background: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    padding: 30px 30px 0;
+    width: 100%
+}
+.svp-block-2 {
+    background: #fff;
+    margin-bottom: 12px;
+    width: 100%
+}
+.block-2-left {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    text-align: center;
+    width: 40%
+}
+.block-2-right {
+    float: right;
+    width: 60%
+}
+.block-2-title small {
+    color: #fd634e;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase
+}
+.block-2-title h4,
+.block-2-title>h3 {
+    font-family: oswald_regularregular;
+    text-transform: uppercase
+}
+.block-2-title>h3 {
+    color: #f0582d;
+    font-size: 34px;
+    margin-top: 5px
+}
+.block-2-title h4 {
+    color: #000;
+    font-size: 26px;
+    margin-top: 7px
+}
+.block-svp-details>p,
+.svp-block-3 .block-svp-details>p {
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 10px
+}
+.block-2-title {
+    padding-bottom: 30px;
+    position: relative
+}
+.block-2-title::before {
+    background: #000;
+    bottom: 10px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 15px
+}
+.block-2-title,
+.block-svp-details {
+    text-align: left
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+section.full-page.stay_2 {
+    overflow: hidden
+}
+.stay_2 .svp-details-bg {
+    background: url(../newimg/svp-details-bg1.jpg) rgba(0, 0, 0, 0);
+    background-size: cover
+}
+.bod
+{
+    font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+  background: #222;
+  overflow: hidden;
+}
+marquee
+{
+    width: 50%;
+    
+}
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+    top: 2em;
+    color: #032fa4;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: initial;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: 20%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 40%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+/******* header menu ********/
+header {
+    position: absolute;
+    left: 75px;
+    z-index: 1;
+    top: 40px;
+}
+
+header .header-menu {
+    vertical-align: top;
+    display: inline-block;
+    margin: 50px 0px 0 50px;
+}
+
+header .header-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+header .header-menu ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin: 0 12px;
+}
+
+header .header-menu ul li:last-child {
+    margin-right: 0;
+}
+
+header .header-menu ul li::after {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: -14px;
+}
+
+header .header-menu ul li:last-child::after {
+    display: none;
+}
+
+header .header-menu ul li a {
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-family: "Lato";
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header .logo a {
+    display: block;
+}
+
+header .logo a img {
+    width: 295px;
+}
+
+header .menu-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 12px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: none;
+    outline: none;
+}
+
+header .menu-toggle .icon-bar {
+    background-color: #888;
+    display: block;
+    margin-top: 4px;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+header .menu-toggle .icon-bar:first-child {
+    margin-top: 0;
+}
+
+/******* header menu ********/
+
+/******* Benner menu ********/
+
+.benner {
+    position: relative;
+    overflow: hidden;
+}
+
+.benner>img {
+    width: 100%;
+}
+
+.benner .benner-contain {
+    position: absolute;
+    top: 34%;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+
+.benner .benner-contain h2 {
+    font-size: 47px;
+    line-height: 46px;
+    margin: 0 0 5px 0;
+    color: #032fa4;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.benner .benner-contain h1 {
+    font-size: 115px;
+    line-height: 150px;
+    margin: 0;
+    color: #032fa4;
+    font-family: 'Anton', sans-serif;
+    box-shadow: 0px 0px 1px 1px #2068e4 inset;
+    text-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 40px;
+    font-weight: 500;
+}
+
+.benner .benner-contain .tallest-statue {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    background-color: #032fa4;
+    padding: 10px 30px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.desc-nation {
+    display: inline-block;
+    text-align: left;
+    margin: 30px 0 0 -50px;
+}
+
+.desc-nation p {
+    font-size: 23px;
+    line-height: 32px;
+    color: #4888ea;
+    margin: 0;
+}
+
+.desc-nation p span {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.desc-nation p b {
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.desc-date {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 0 0 -30px;
+}
+
+.desc-date p {
+    font-size: 22px;
+    line-height: 27px;
+    color: #4888ea;
+    margin: 0;
+}
+
+.desc-date p span {
+    font-size: 31px;
+    font-weight: 500;
+}
+
+/******* Benner menu ********/
+
+/******* About sardar patel ********/
+
+.about-sardar-patel {
+    background-image: url(../newimg/about-bg.jpeg);
+    background-repeat: no-repeat;
+    padding: 80px 0 40px 0;
+    position: relative;
+}
+
+.about-sardar-patel::after {
+    background-image: url(../newimg/sardar-patel.png);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    right: 7%;
+    top: 0;
+    width: 525px;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: bottom left;
+}
+
+.about-sardar-patel .container {
+    width: 1270px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.about-sardar-patel .about-contain {
+    text-align: right;
+    padding: 0px 32% 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.about-sardar-patel .about-contain h2 {
+    font-size: 78px;
+    line-height: 078px;
+    color: #4681d1;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.about-sardar-patel .about-contain h2 span {
+    display: block;
+    margin: 0 -25px 0 0;
+}
+
+.about-sardar-patel .about-contain h3 {
+    font-size: 41px;
+    line-height: 41px;
+    color: #193f87;
+    font-family: 'Anton', sans-serif;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.about-sardar-patel .about-contain p {
+    font-size: 20px;
+    line-height: 23px;
+    color: #4e677b;
+    font-family: "Lato";
+    text-align: right;
+}
+
+/******* Gallery ********/
+
+.media-main {
+    background-color: #62a3f0;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+
+.media-main .page-title h3 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.link-btn ul {
+    border: none;
+    margin: 0 0 15px;
+}
+
+.link-btn ul li {
+    float: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.link-btn ul li a {
+    padding: 0;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    border: none;
+    margin: 0;
+}
+
+.link-btn ul li.active a,
+.link-btn ul li a:hover,
+.link-btn ul li.active a:hover,
+.link-btn ul li.active a:focus {
+    background: none;
+    border: none;
+    color: #032fa4;
+    margin: 0;
+}
+
+.media-main .events-images {
+    background-color: #fff;
+}
+
+.media-main .events-images .img-box {
+    float: left;
+    width: 20%;
+    padding: 0;
+    border: none;
+    margin: 0;
+    position: relative;
+}
+
+.media-main #films .events-images .img-box:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 60px;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    border-radius: 60px 0 0 0;
+    transition: ease-in-out 200ms;
+    z-index: 1;
+}
+
+.media-main #films .events-images .img-box:hover:before,
+.media-main #films .events-images .img-box:focus:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.media-main .events-images .img-box .play-btn {
+    background-image: url(../newimg/youtube.svg);
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: ease-in-out 200ms;
+}
+
+.media-main .events-images .img-box:hover .play-btn,
+.media-main .events-images .img-box:focus .play-btn {
+    width: 100%;
+    height: 100%;
+    background-size: 35px;
+    right: 0;
+    bottom: 0;
+}
+
+.media-main .events-images .img-box img {
+    padding: 0;
+    border: none;
+    margin: 0;
+    display: block;
+    border-radius: 0;
+    width: 100%;
+}
+
+.event-gallery {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.event-gallery .modal-dialog {
+    width: auto;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.event-gallery .modal-body {
+    height: calc(100vh - 216px);
+}
+
+.event-gallery .modal-body img {
+    width: auto;
+    height: 100%;
+}
+
+.event-gallery .slide-btn button {
+    font-size: 40px;
+    display: inline-block;
+    background: #dcdcdc;
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 2px 20px 8px 20px;
+    color: #343434;
+    line-height: 30px;
+    text-decoration: none;
+    transition: ease-in-out 200ms;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.event-gallery#video-gallery .modal-body iframe {
+    width: 1300px;
+    height: 100%;
+    max-width: 100%;
+}
+
+/****** Tab Scroll *********/
+
+.pn-ProductNav_Wrapper {
+    position: relative;
+    padding: 0 11px;
+}
+
+.pn-ProductNav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    position: relative;
+    margin: 0 10px;
+}
+
+.js .pn-ProductNav {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.js .pn-ProductNav::-webkit-scrollbar {
+    display: none;
+}
+
+.pn-ProductNav_Contents {
+    float: none;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.pn-ProductNav_Contents-no-transition {
+    transition: none;
+}
+
+.pn-Advancer {
+    /* Reset the button */
+    appearance: none;
+    background: #000;
+    padding: 0;
+    border: 0;
+    /* Now style it as needed */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* Set the buttons invisible by default */
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 20px;
+}
+
+.pn-Advancer:focus {
+    outline: 0;
+}
+
+.pn-Advancer:hover {
+    cursor: pointer;
+}
+
+.pn-Advancer_Left {
+    left: 0;
+}
+
+[data-overflowing=both]~.pn-Advancer_Left,
+[data-overflowing=left]~.pn-Advancer_Left {
+    opacity: 1;
+}
+
+.pn-Advancer_Right {
+    right: 0;
+}
+
+[data-overflowing=both]~.pn-Advancer_Right,
+[data-overflowing=right]~.pn-Advancer_Right {
+    opacity: 1;
+}
+
+.pn-Advancer_Icon {
+    width: 10px;
+    height: 35px;
+    fill: #f4f4f4;
+}
+
+.regular-txt {
+    font-size: 58px;
+}
+/****** Tab Scroll *********/
+
+/******* Gallery ********/
+
+/******* Statues ********/
+
+.statues {
+    background-image: url(../newimg/grediant.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0 0 0;
+}
+
+.statues .container {
+    width: 1640px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.statues-main {
+    font-size: 0;
+}
+
+
+
+.statues .statues-main .statues-box {
+    display: inline-block;
+    width: 16.66%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 25px;
+    color: #98ccf7;
+    vertical-align: bottom;
+}
+
+
+
+.statues .statues-main.statues-title {
+    background-color: #092461;
+    padding-bottom: 110px;
+}
+
+.statues .statues-main.statues-title .statues-box {
+    vertical-align: top;
+}
+
+.statues .statues-main .statues-box .img-box img {
+    max-width: 100%;
+}
+
+.statues .statues-main .statues-box h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px 0 0 0;
+}
+
+.statues .statues-main .statues-box p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/******* Statues ********/
+
+/******* footer-top ********/
+
+/******* footer-top ********/
+
+.footer-top .container {
+    width: 1640px;
+    margin: auto;
+    max-width: 100%;
+    position: relative;
+}
+
+.footer-top .footer-top-img {
+    width: 38%;
+    float: left;
+    margin: -80px 0 0 0;
+}
+
+.footer-top .footer-top-img img {
+    width: 100%;
+    display: block;
+}
+
+.footer-top-contain {
+    overflow: hidden;
+    padding: 60px 29% 20px 80px;
+}
+
+.footer-top-contain p {
+    font-size: 33px;
+    letter-spacing: 1px;
+    color: #193f87;
+    line-height: 37px;
+    position: relative;
+}
+
+.footer-top-contain p::before {
+    background-image: url(../newimg/coma-top.png);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: -14px;
+    width: 40px;
+    height: 40px;
+    background-size: 100% auto;
+    left: -55px;
+}
+
+.footer-top-contain p::after {
+    background-image: url(../newimg/coma-bottom.png);
+    background-repeat: no-repeat;
+    content: "";
+    width: 40px;
+    height: 29px;
+    background-size: 100% auto;
+    display: inline-block;
+    margin: 0 0 -15px 10px;
+}
+
+.footer-top .regard {
+    margin: 50px 0 0;
+}
+
+.footer-top .regard h2 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    color: #191c24;
+    margin: 0;
+    line-height: 42px;
+}
+
+.footer-top .regard span {
+    font-size: 24px;
+    color: #191c24;
+}
+
+/******* footer-top ********/
+
+/******* Footer ********/
+
+footer {
+    background-color: #1b1e25;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0 3px;
+}
+
+footer a img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2px 0 0;
+}
+
+footer a span {
+    display: inline-block;
+    margin: 3px 0 0 2px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.nav-tabs-dropdown {
+    display: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.nav-tabs-dropdown:before {
+    content: "\e114";
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    right: 30px;
+}
+
+/******* Footer ********/
+
+/******* Media style ********/
+
+@media (max-width: 1680px) {
+    .about-sardar-patel::after {
+        right: 0;
+    }
+}
+
+@media (max-width: 1480px) {
+    .footer-top-contain {
+        padding: 60px 7% 20px 80px;
+    }
+}
+
+@media (max-width: 1440px) {
+    header .logo a img{
+        width: 250px;
+    }
+    header .header-menu{
+        margin:45px 0 0 45px;
+    }
+    .benner .benner-contain h2 {
+        font-size: 34px;
+    }
+    .benner .benner-contain h1 {
+        font-size: 55px;
+        line-height: 90px;
+    }
+    .about-sardar-patel .about-contain {
+        padding: 0px 38% 0 0;
+    }
+    .benner .benner-contain .tallest-statue {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .desc-nation p{
+        font-size: 17px;
+    }
+    .desc-nation p span, .desc-nation p b{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .footer-top .footer-top-img {
+        width: 42%;
+    }
+    .footer-top-contain {
+        padding: 60px 5% 20px 80px;
+    }
+}
+
+@media (max-width: 1280px) {
+    header {
+        right: 45px;
+        top: 20px;
+    }
+    header .logo a img {
+        width: 150px;
+    }
+    header .header-menu {
+        margin: 25px 0 0 50px;
+    }
+    header .header-menu ul li a {
+        font-size: 18px;
+    }
+    .benner .benner-contain {
+        top: 29%;
+    }
+    .benner .benner-contain h2 {
+        font-size: 35px;
+    }
+    .benner .benner-contain h1 {
+        font-size: 65px;
+    }
+    .benner .benner-contain .tallest-statue {
+        font-size: 28px;
+        padding: 10px 24px;
+    }
+    .desc-date {
+        margin: 20px 0 0 50px;
+    }
+    .desc-nation {
+        margin: 30px 0 0 30px;
+    }
+    .about-sardar-patel .about-contain h2 {
+        font-size: 60px;
+    }
+    .about-sardar-patel .about-contain {
+        padding: 0px 43% 0 0;
+    }
+    .footer-top .footer-top-img {
+        width: 415px;
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+    }
+    .footer-top-contain {
+        padding: 60px 0 20px 480px;
+    }
+}
+
+@media (max-width: 1100px) {
+    header {
+        top: 15px;
+        right: 25px;
+    }
+    header .header-menu {
+        margin: 25px 0 0 50px;
+    }
+    header .logo a img {
+        width: 120px;
+    }
+    header .header-menu ul li a {
+        font-size: 18px;
+    }
+    .about-sardar-patel {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        top: 20px;
+    }
+    header .header-menu {
+        margin: 40px 0 0 50px;
+    }
+    header .logo a img {
+        width: 150px;
+    }
+    .benner .benner-contain {
+        top: 26%;
+    }
+    .benner {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,5a8fc4+100 */
+        background: #ffffff;
+        /* Old browsers */
+        background: -moz-radial-gradient(center, ellipse cover, #ffffff 1%, #5a8fc4 100%);
+        /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, #ffffff 1%, #5a8fc4 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, #ffffff 1%, #5a8fc4 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5a8fc4', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+    }
+    
+    
+    .desc-nation p span {
+        font-size: 20px;
+    }
+    .desc-nation {
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+    .desc-date {
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .footer-top-contain p {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .about-sardar-patel::after {
+        right: -102px;
+        width: 50%;
+    }
+    .about-sardar-patel {
+        padding: 40px 0 40px 0;
+    }
+    .media-main {
+        padding: 40px 0 0 0;
+    }
+    .footer-top .regard h2 {
+        font-size: 34px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+    .about-sardar-patel {
+        overflow: hidden;
+    }
+    .statues {
+        display: none;
+    }
+    .about-sardar-patel::after {
+        display: none;
+    }
+    .benner .benner-contain {
+        top: 19%;
+    }
+    .benner .benner-contain h1 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .benner .benner-contain h2 {
+        font-size: 22px;
+    }
+    .benner .benner-contain .tallest-statue {
+        font-size: 18px;
+        padding: 10px 24px;
+    }
+    .desc-nation {
+        background: rgba(255,255,255,0.5);
+        padding: 0 10px;
+        margin-top: 10px; 
+    }
+    .desc-nation p {
+        font-size: 16px;
+    }
+    .desc-nation p span, .desc-nation p b {
+        font-size: 17px;
+    }
+    .about-sardar-patel .about-contain h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .about-sardar-patel .about-contain {
+        padding: 0px 0 0 0;
+        text-align: center;
+    }
+    .about-sardar-patel .about-contain h3 {
+        margin: 20px 0 20px;
+    }
+    .about-sardar-patel .about-contain h2 span {
+        margin: 0;
+    }
+    .media-main {
+        padding: 30px 0 0 0;
+    }
+    .media-main .page-title h3 {
+        font-size: 35px;
+    }
+    .link-btn ul li a {
+        font-size: 18px;
+    }
+    /********** Menu **********/
+    body.open-menu {
+        overflow: hidden;
+    }
+    header {
+        position: static;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    header .logo {
+        display: inline-block;
+        vertical-align: top;
+        margin: auto;
+        width: 150px;
+        float: none;
+    }
+    header .logo a img {
+        width: 90px;
+    }
+    header .menu-toggle {
+        display: block;
+        float: left;
+    }
+    header .header-menu {
+        margin: 0 0 0 0;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        top: 77px;
+        bottom: 100%;
+        z-index: 2;
+        left: 0;
+        overflow: hidden;
+        transition: 300ms;
+    }
+    .open-menu header .header-menu {
+        bottom: 0;
+    }
+    header .header-menu ul {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 10px;
+        background: rgba(255, 255, 255, 0.9);
+        right: auto;
+        bottom: 10px;
+        left: 10px;
+        width: 250px;
+        text-align: left;
+    }
+    header .header-menu ul li {
+        display: block;
+        list-style: none;
+        position: relative;
+        margin: 0 0;
+        border-bottom: solid 1px #666060;
+    }
+    header .header-menu ul li::after {
+        display: none;
+    }
+    header .header-menu ul li a {
+        color: #707175;
+        padding: 15px 20px;
+        display: inline-block;
+    }
+    /********** Menu **********/
+    .footer-top .footer-top-img {
+        width: 345px;
+    }
+    .footer-top-contain {
+        padding: 60px 0 20px 380px;
+    }
+    .footer-top-contain p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .footer-top .regard h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+
+/* @media screen and (min-width: 769px) {
+    #nav-tabs-wrapper {
+        display: block !important;
+    }
+} */
+
+@media (max-width: 767px) {
+    
+    #venue_location {
+        display:block;
+    }
+    .benner .benner-contain {
+        margin-left: 0;
+    }
+    .benner .benner-contain {
+        position: static;
+        padding: 160px 0 60px;
+    }
+    .benner .benner-contain h2 {
+        font-size: 30px;
+    }
+    .benner .benner-contain h1 {
+        font-size: 55px;
+        line-height: 100px;
+    }
+    .benner .benner-contain .tallest-statue {
+        font-size: 24px;
+    }
+    .benner .benner-contain {
+        padding: 60px 0 60px;
+    }
+    .desc-nation {
+        background:none;
+        padding: 0px;
+    }
+    .about-sardar-patel {
+        padding: 20px 0 0px 0;
+    }
+    .about-sardar-patel .about-contain h2 {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .about-sardar-patel .about-contain h3 {
+        font-size: 30px;
+        margin: 10px 0 0;
+    }
+    .about-sardar-patel .about-contain p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .about-sardar-patel .about-contain {
+        padding: 0;
+    }
+    .media-main {
+        padding: 20px 0 0 0;
+    }
+    .media-main .page-title h3 {
+        font-size: 25px;
+        line-height: 25px;
+        margin: 0 0 15px 0;
+    }
+    .media-main .events-images .img-box {
+        width: 100%;
+    }
+    /***** Tab style****/
+    .link-btn {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .link-btn ul {
+        margin: 0;
+        padding: 0;
+    }
+    .link-btn ul li {
+        margin: 0;
+    }
+    .link-btn ul li a {
+        font-size: 14px;
+        background-color: #fff;
+        color: #62a3f0;
+        padding: 10px 15px;
+        line-height: 14px;
+    }
+    .link-btn ul li.active a,
+    .link-btn ul li a:hover,
+    .link-btn ul li.active a:hover,
+    .link-btn ul li.active a:focus {
+        background-color: #214e83;
+        color: #fff;
+    }
+    /****** Tab Style *******/
+    /***** slider style*****/
+    .item {
+        width: 100%;
+        float: left;
+    }
+    #myCarousel {
+        position: relative;
+        overflow: hidden;
+    }
+    .hide {
+        display: none;
+    }
+    .footer-top .footer-top-img {
+        width: 300px;
+        position: static;
+        margin: 20px auto;
+        float: none;
+    }
+    .footer-top-contain {
+        padding: 30px 0 20px 0;
+    }
+    .footer-top-contain p {
+        margin-left: 60px;
+    }
+    .footer-top .regard {
+        text-align: center;
+        margin: 40px 0 0;
+    }
+    footer a {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 514px) {
+    footer a {
+        font-size: 22px;
+        display: block;
+        margin: 15px 10px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .benner .benner-contain {
+        padding: 30px 10px;
+    }
+    .benner .benner-contain h2 {
+        font-size: 26px;
+    }
+    .benner .benner-contain h1 {
+        padding: 0 25px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .benner .benner-contain .tallest-statue {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 5px 15px;
+    }
+    .desc-nation p b {
+        font-size: 26px;
+    }
+    .desc-nation p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .desc-date p span {
+        font-size: 26px;
+    }
+    .desc-date p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
